@@ -1,7 +1,7 @@
 # FX Trading API
 
 ## Description
-APIs for accessing real-time Exchange Rate data, Conversion, Checking Balance and adding balance to account
+APIs for accessing real-time Exchange Rate data, Conversion, Checking Balance, and adding balance to the account
 
 ### Features
 1. Developed a background data fetching service to regularly retrieve FX conversion rates from an external API and cache them in memory using Redux for efficient access.
@@ -12,9 +12,9 @@ APIs for accessing real-time Exchange Rate data, Conversion, Checking Balance an
 
 ## Instruction
 
-### Clone the repositiory 
+### Clone the repository 
 ```
-
+git clone https://github.com/mohitfagoria/fx-trading-api-assignment.git
 ```
 ### Install the npm packages
 ```
@@ -31,7 +31,7 @@ npm run start
 $ npm run start:dev
 
 ```
-### Swagger (Test the apis)
+### Swagger (Test the APIs)
 
 #### When the app is running go to http://localhost:5174/api/ to test all the apis.
 
@@ -42,8 +42,8 @@ npm run test
 
 
 - Created an FX rate syncing system that runs in the background and fetches live FX conversion rates from app.exchangerate-api.com and stores them in memory.
-- Created a system the fetches data at a period of ***30s*** from app.exchangerate-api.com and stores it.
-- When the data is fetch an expiray of ***30s*** is also stored with it 
+- Created a system that fetches data at a period of ***30s*** from app.exchangerate-api.com and stores it.
+- When the data is fetched an expiry of ***30s*** is also stored with it 
 - Caching is also done using Redux
 
 ## Create the following API endpoints
