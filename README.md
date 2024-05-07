@@ -27,8 +27,9 @@ $ npm install
 ```
 npm run start
 
-# watch mode
-$ npm run start:dev
+#For watch mode:
+
+npm run start:dev
 
 ```
 ### Swagger (Test the APIs)
